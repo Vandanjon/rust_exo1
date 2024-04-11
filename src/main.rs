@@ -1,5 +1,3 @@
-use num_cpus::get;
-
 fn main() {
-    println!("Number of CPUs: {}", get());
+    println!("{0}, this is {1}. {1}, this is {0}", "Alice", "Bob");
 }
